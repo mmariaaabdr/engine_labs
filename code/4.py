@@ -6,7 +6,7 @@ import picamera
 FILENAME = "image_max.jpg"
 
 # Фиксированная экспозиция (подбирай под яркость сцены)
-FIXED_SHUTTER_US = 20000    # 20 ms
+FIXED_SHUTTER_US = 90000    # 20 ms
 FIXED_ISO = 100             # можно 200/400 если темно
 
 with picamera.PiCamera() as camera:
