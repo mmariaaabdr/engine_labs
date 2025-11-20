@@ -1,6 +1,6 @@
 import picamera, time
 
 with picamera.PiCamera() as camera:
-    camera.resolution = (1920, 1080)
+    camera.resolution = (1640, 1213)
     time.sleep(2)
-    camera.capture('test.jpg')
+    camera.capture('red.jpg')
