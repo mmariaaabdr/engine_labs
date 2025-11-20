@@ -3,11 +3,11 @@ import time
 import picamera
 
 # Настройки
-FILENAME = "image_max.jpg"
+FILENAME = "white.jpg"
 
 # Фиксированная экспозиция (подбирай под яркость сцены)
-FIXED_SHUTTER_US = 90000    # 20 ms
-FIXED_ISO = 100             # можно 200/400 если темно
+FIXED_SHUTTER_US = 30000    # 20 ms
+FIXED_ISO = 200             # можно 200/400 если темно
 
 with picamera.PiCamera() as camera:
     # Максимальное возможное разрешение камеры автоматически
