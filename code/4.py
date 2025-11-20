@@ -11,7 +11,7 @@ FIXED_ISO = 100             # можно 200/400 если темно
 
 with picamera.PiCamera() as camera:
     # Максимальное возможное разрешение камеры автоматически
-    camera.resolution = camera.MAX_RESOLUTION
+    camera.resolution = (3280,2426)
     camera.framerate = 1   # нужен низкий fps для длинной выдержки
 
     # Шаг 1: даём авто-настройкам включиться, чтобы сенсор прогрелся
